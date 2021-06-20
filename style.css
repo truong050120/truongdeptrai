@@ -1,0 +1,466 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;700;900&display=swap');
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Noto Sans KR', sans-serif;
+}
+body{
+	font-family: 'Noto Sans KR', sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	width: 100%;
+}
+/*HEADER*/
+header{
+	width: 100%;
+}
+.main{
+	width: 100%;
+	height: 60px;
+	background-color:#FCFCFA;
+}
+.container{
+	width: 94%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.menu{
+	width: 40px;
+	height: 60px;
+	float: right;
+}
+.menu img{
+	height: 25px;
+}
+.logo{
+	float: left;
+}
+.logo img{
+	height: 25px;
+}
+.icon{
+	width: 40px;
+	float: right;
+}
+.icon img{
+	height: 25px;	
+}
+.iconn{
+	width: 40px;
+	float: right;
+}
+.iconn img{
+	height: 25px;
+}
+.iconnn{
+	width: 40px;
+	float: right;
+}
+.iconnn img{
+	height: 25px;
+	
+}
+.iconnnn{
+	width: 40px;
+	float: right;
+}
+.iconnnn img{
+	height: 25px;	
+}
+/*END HEADER*/
+/*MAIN*/
+/*SECTION1*/
+.banner{
+	width: 100%;
+	height: 1080px;
+	box-sizing: border-box;
+	background: url("img/BANNER.svg");
+	background-repeat: no-repeat;
+}
+.content{
+	width: 30%;
+	margin-top: 10%;
+}
+.content h1{
+	color: rgba(6,23,58,1.00);
+	font-weight: 900;
+	font-size: 60px;
+	letter-spacing: 1.5px;
+	line-height: 74px;
+}
+.content p{
+	color: rgba(6,23,58,1.00);
+	font-weight: 300;
+	font-size: 24px;
+	margin: 20px 0 50px;
+}
+.button1{
+	padding: 10px 40px;
+	color:rgba(6,23,58,1.00);
+	letter-spacing: 1.5px;
+	text-decoration: none;
+	border-radius: 50px;
+	font-size: 18px;
+	border: 1px solid rgba(6,23,58,1.00) ;
+	transition-duration: 0.1s;
+}
+.button1:hover{
+	background:rgba(6,23,58,0.30);
+}
+/*SECTION2*/
+.section2{
+	width: 100%;
+	height: 1080px;
+	margin: 0 auto;
+	background:url("img/source.gif"),url( "img/hình3.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:500px, cover;
+	background-attachment: scroll,fixed;
+}
+.name{
+	font-weight: 900;
+	margin:80px 0 0 380px;
+	font-size: 200px;
+	color: white;
+}
+/*SECTION3*/
+.section3{
+	width: 100%;
+	height: 1300px;
+	background-color: #fcfcfa;
+}
+.content1{
+	width: 100%;
+	margin-top: 10%;
+}
+.content1 h3{
+	color: rgba(6,23,58,1.00);
+	font-size: 30px;
+	margin-bottom: 20px;
+	
+}
+.box{
+	width: 49.5%;
+	height: 800px;
+	background: url("img/nike-air-zoom-tempo-next-scarpe-da-running-uomo-turquoise-ci9923-300-K.jpg");
+	background-size: cover;
+	float: left;
+	overflow: hidden;
+}
+.chu{
+	color: white;
+	font-size: 24px;
+	margin: 680px 30px 20px;
+	
+}
+.button2{
+	margin: 0 30px;
+	padding: 8px 30px;
+	color: white;
+	letter-spacing: 1.5px;
+	text-decoration: none;
+	border-radius: 50px;
+	font-size: 18px;
+	border: 1px solid white ;
+	transition-duration: 0.1s;
+}
+.button2:hover{
+	background: rgba(148,148,148,0.46);
+}
+.button4{
+	margin: 0 30px;
+	padding: 8px 30px;
+	color:rgba(6,23,58,1.00);
+	letter-spacing: 1.5px;
+	text-decoration: none;
+	border-radius: 50px;
+	font-size: 18px;
+	border: 1px solid rgba(6,23,58,1.00) ;
+	transition-duration: 0.1s;
+}
+.button4:hover{
+	background: rgba(6,23,58,0.30);
+}
+.box1{
+	width: 49.5%;
+	height: 800px;
+	background:url("img/tempo-next-1.jpg");
+	float:left;
+	background-size: cover;
+	margin-left: 1%;
+	overflow: hidden;
+}
+/*SECTION4*/
+.section4{
+	width: 100%;
+	height: 1150px;
+	background: rgba(29,40,83,1.00);
+}
+.hinh{
+	width: 100%;
+	height: 100%;
+	background:url("img/hình2.svg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+.box2{
+	width: 30%;
+	height: 350px;
+	margin-top: 100px;
+	float: left;
+	border-radius: 10px;
+	background: url("img/3c21913f-f28b-42e3-9ef0-9e494c2a7764 (1).webp");
+	background-size: cover;
+}
+.box3{
+	width: 30%;
+	height: 350px;
+	margin:100px 0px 0px 5%;
+	float: left;
+	border-radius: 10px;
+	background: url("img/92e32659-0b37-4421-90bb-8ba6dcd8f50c.webp");
+	background-size: cover;
+}
+.box4{
+	width: 30%;
+	height: 350px;
+	margin: 100px 0px 0px 5%;
+	float: left;
+	border-radius: 10px;
+	background: url("img/b5bcc117-8129-41ec-873a-91034262915c.webp");
+	background-size: cover;
+}
+.content2{
+	width: 50%;
+}
+.content2 h1{
+	color: white;
+	font-size: 48px;
+	margin-top:  300px;
+	letter-spacing: 1.5px;
+}
+.content2 p{
+	font-weight: 300;
+	color: white;
+	font-size: 20px;
+	margin: 10px 100px 0px 0px;
+}
+/*SECTION5*/
+.section5{
+	width: 100%;
+	height: 1200px;
+	background:#fcfcfa;
+}
+.nut{
+	width: 100%;
+	height: 50px;
+/*	background: rgba(255,0,4,1.00);*/
+	margin-top: 150px;
+	text-align: right;
+}
+.collection{
+	width: 50%;
+}
+.collection h1{
+	color:rgba(6,23,58,1.00);
+	font-size: 48px;
+	letter-spacing: 1.5px;
+	margin-top: 200px;
+}
+.collection p{
+	color:rgba(6,23,58,1.00);
+	font-weight: 300;
+	font-size: 20px;
+	margin: 10px 100px 0px 0px;
+}
+.sanpham{
+	margin-top: 70px;
+}
+.sp{
+	width: 24.25%;
+	height: 451.5px;
+	float:left;
+	overflow: hidden;
+}
+.sp img{
+	width: 100%;
+	height: 451.5px;
+}
+.sp1{
+	width: 24.25%;
+	height: 451.5px;
+	float:left;
+	margin-left: 1%;
+	overflow: hidden;
+	background-size: cover;
+}
+.sp1 img{
+	width: 100%;
+	height: 451.5px;
+}
+.masp{
+	width: 100%;
+	height: 10px;
+	clear: both;
+}
+.ma1{
+	width: 24.25%;
+	float: left;
+	margin-top: 5px;
+}
+.ma2{
+	margin:5px 0px 0px 1%;
+	width: 24.25%;
+	float: left;
+}
+.masp1 h5{
+	color: dimgrey;
+}
+
+/*SECTION6*/
+.section6{
+	width: 100%;
+	height: 800px;
+	background: #f6f6f6;
+}
+.container1{
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.hinhanh{
+	width: 24%;
+	height: 400px;
+	margin-top: 200px;
+	background: url("img/avt.svg");
+	background-repeat: no-repeat;
+	float: left;
+}
+.verticalline{
+    width: 100%;
+	margin-top: 10px;
+    background-color: steelblue;
+    height: 100%;
+    border: 1px ridge steelblue ;
+    border-radius: 1px;
+}
+.content3{
+	width: 70%;
+	margin: 220px 0px 0px 6%;
+	float:left;
+}
+.content3 h1{
+	color:rgba(6,23,58,1.00);
+}
+.content3 h5{
+	color: dimgrey;
+}
+.content3 p{
+	color:rgba(6,23,58,1.00);
+	font-weight: 300;
+	font-size: 20px;
+	margin: 10px 0 30px 0;
+}
+.button3{
+	padding: 8px 20px;
+	color:rgba(6,23,58,1.00);
+	letter-spacing: 1.5px;
+	text-decoration: none;
+	border-radius: 50px;
+	font-size: 18px;
+	border: 1px solid rgba(6,23,58,1.00);
+	transition-duration: 0.1s;
+}
+.button3:hover{
+	background: rgba(6,23,58,0.30);
+}
+/*FOOTER*/
+#footer{
+	width: 100%;
+	height: 280px;
+	background: rgba(6,23,58,1.00);
+	background-attachment: fixed;
+}
+.container2{
+	width: 80%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-top: 20px;
+}
+.phan1{
+	width: 100%;
+	height: 200px;
+	margin-bottom: 12.5px;
+}
+.cot{
+	width: 30%;
+	box-sizing: border-box;
+	padding: 40px;
+	float: left;
+}
+.cot img{
+	width: 300px;
+}
+.cot1{
+	width: 30%;
+	box-sizing: border-box;
+	padding: 80px 0 0 130px;
+	float: right;
+}
+.lienhe a img{
+	width: 30px;
+	padding: 12px 12px;
+}
+.cot2 {
+	width: 30%;
+	margin-left:  78px;
+	box-sizing: border-box;
+	padding-top: 40px;
+	float: left;
+}
+.cot2 h1{
+	color: white;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.cot2 p{
+	font-size: 11px;
+	color: gray;
+	margin-top: 5px;
+	text-align: center;
+}
+.line{
+    width: 100%;
+    background-color: dimgrey;
+    height: 50%;
+    border: 0.1px ridge dimgrey;
+    border-radius: 0.1px;
+}
+.phan2{
+	width: 100%;
+	height: 20px;
+	margin-top: 12.5px;
+}
+.phan2 p{
+	text-align: center;
+	font-size: 10px;
+	color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
